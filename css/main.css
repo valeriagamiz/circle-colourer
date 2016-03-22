@@ -13,19 +13,23 @@
 }
 
 html {
-	box-sizing: border-box;
+  box-sizing: border-box;
+  -moz-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+  text-size-adjust: 100%;
 }
 
 *, *::before, *::after {
-	box-sizing: inherit;
+  box-sizing: inherit;
 }
 
 .ball {
-	width: 200px;
-	height: 200px;
-	position: absolute;
-	top: 200px;
-	left: 200px;
-	background-color: cyan;
-	border-radius: 100px;
+  width: 200px;
+  height: 200px;
+  position: absolute;
+  top: 200px;
+  left: 200px;
+  background-color: red;
+  border-radius: 100px;
 }
