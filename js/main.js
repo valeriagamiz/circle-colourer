@@ -1,5 +1,9 @@
-var $div = $('div');
+var $html = $('html');
+var $ball = $('div');
+var $picker = $('form');
+var $input = $('#pick-color');
 
-$('#colour-button').on('change', function (){
-    $div.css('background-color', $('#colour-button').val());;
+$picker.on('change', function () {
+  console.log ('works');
+  $ball.css('background-color', $input.val());
 });
